@@ -1,0 +1,71 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #F0FFFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+
+}
+#main{
+    background-image: url("images/mainpic.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80PX;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 0;
+}
+#main h4 {
+    padding-bottom: 5px;
+}
+#main h1{
+    padding-bottom: 2px;
+}
+.btn {
+    background-color: #f5e3d8;
+    border: none;
+    color: #5a3600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px #5a3600;
+}
+.btn:hover {
+    background-color: #e6d0c1;
+}
+h1{
+    font-size: 50px;
+}
